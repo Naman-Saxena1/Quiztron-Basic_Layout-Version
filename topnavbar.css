@@ -1,0 +1,7 @@
+.top-bar
+{
+    border: none;
+    color: var(--dark-blue-color);
+    background-color: white;
+    border-bottom: 1px solid var(--dark-blue-color);
+}

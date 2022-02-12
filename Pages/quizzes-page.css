@@ -1,0 +1,26 @@
+html, body
+{
+    background-image: none;
+}
+
+body
+{
+    color: var(--dark-blue-color);
+}
+
+.genre-quizzes-container
+{
+    display: flex;
+    flex-direction : column;
+    width: 100%;
+    min-height: 87.5%;
+    background-color: var(--bluish-light-grey-color);
+}
+
+.genre-heading
+{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 4rem;
+}
