@@ -18,3 +18,23 @@ viewComedyQuizzesBtn.addEventListener('click',()=>{
 viewRomanceQuizzesBtn.addEventListener('click',()=>{
     window.location="./Pages/Genre-Romance-Quizzes/romance-quizzes.html"
 })
+
+viewDystopiaQuizzesBtn.addEventListener('click',()=>{
+    window.location="./Pages/Genre-Dystopia-Quizzes/dystopia-quizzes.html"
+})
+
+viewCrimeQuizzesBtn.addEventListener('click',()=>{
+    window.location="./Pages/Genre-Crime-Quizzes/crime-quizzes.html"
+})
+
+viewSuperheroQuizzesBtn.addEventListener('click',()=>{
+    window.location="./Pages/Genre-SuperHero-Quizzes/superhero-quizzes.html"
+})
+
+viewMedievalFantasyQuizzesBtn.addEventListener('click',()=>{
+    window.location="./Pages/Genre-MedievalFantasy-Quizzes/medievalFantasy-quizzes.html"
+})
+
+viewAnimeQuizzesBtn.addEventListener('click',()=>{
+    window.location="./Pages/Genre-Anime-Quizzes/anime-quizzes.html"
+})
