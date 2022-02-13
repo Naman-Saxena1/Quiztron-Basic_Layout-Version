@@ -3,7 +3,7 @@ const allQuestionsOptionsList = document.querySelectorAll(".ul-options")
 const scoreContainer = document.querySelector(".score-container")
 const scoreValue     = document.querySelector(".score-value")
 
-let answerArray = [1,2,1,0,2,0,1,2,1,0]
+let moneyHeistAnswerArray = [1,2,1,0,2,0,1,2,1,0]
 let score       = 0;
 let indexOfAnswer = 0;
 let emoji;
@@ -12,7 +12,7 @@ quizSubmitBtn.addEventListener('click',()=>{
 
     allQuestionsOptionsList.forEach(singleQuestionUL=>{
 
-        answer = answerArray[indexOfAnswer];
+        answer = moneyHeistAnswerArray[indexOfAnswer];
         let optionNumber = 0;
         
         [...singleQuestionUL.children].forEach(listItem=>{

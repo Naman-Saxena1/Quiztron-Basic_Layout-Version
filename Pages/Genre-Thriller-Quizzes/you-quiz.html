@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://enztron-dev-branch.netlify.app/components.css">
+    <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+    
+    <link rel="icon" type="image/x-icon" href="../../Images/favicon-icon.png">
+    <title>Quiztron | You</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../../topnavbar.css">
+    <link rel="stylesheet" href="../quizzes-page.css">
+</head>
+<body>
+    <div class="top-bar">
+        <div class="left-topbar-container">
+            <div onclick="location.href='/'" class="logo2-container-horizontal">
+                <div id="logo2">
+                    <div id="logo2-hexagon-1">
+                        <div class="logo2-upper-part"></div>
+                        <div class="logo2-middle-part"></div>
+                        <div class="logo2-lower-part"></div>
+                    </div>
+                    <div id="logo2-hexagon-2">
+                        <div class="logo2-upper-part"></div>
+                        <div class="logo2-middle-part"></div>
+                        <div class="logo2-lower-part"></div>
+                    </div>
+                    <div id="logo2-midbar"></div>
+                    <div id="logo2-mid-square"></div>
+                    <div id="left-logo2-midbar"></div>
+                    <div id="right-logo2-midbar"></div>
+                </div>
+                <div id="logo2-text">
+                    Quiztron
+                    <span>v1.0</span>
+                </div>
+            </div>
+        </div>
+        <div class="right-topbar-container">
+            <button class="solid-secondary-btn">Login</button>
+        </div>
+    </div>
+
+       
+    <div class="component-modal">
+        <div class="modal-container">
+            <div class="modal">
+                <h2>Rules</h2>
+                <ol class="list-of-rules">
+                    <li><p>It is a multiple choice question quiz.</p></li>
+                    <li><p>There will be 10 questions</p></li>
+                    <li><p>For each correct answer you get 1 point 🥳</p></li>
+                    <li><p>For each unattempted answer you get 0 point 😔</p></li>
+                    <li><p>There is no negative marking for wrong answers 🙃</p></li>
+                </ol>
+                <div class="checkbox-item">
+                    <input id="accept-rules-checkbox" type="checkbox">
+                    <label for="accept-rules-checkbox">
+                        I have read all rules
+                    </label>
+                </div>
+                <div class="modal-buttons">
+                    <button class="modal-action-btn solid-primary-btn" disabled="true">Start quiz</button>
+                </div>
+            </div>
+        </div> 
+    </div>
+
+    <div class="quiz-container">
+        <h2 class="quiz-heading">You Quiz</h2>
+
+        <img class="quiz-top-img" src="../../Images/Show-Images/you.jpg" alt="Money-Heist-Professor">
+        
+        <div class="quiz-questions-container">
+
+            <div class="quiz-question">
+                <h3>Question 1</h3>
+                <p>
+                    What is the name of the book store that Joe works at?
+                </p>
+                <div class="quiz-options">
+                    <ul class="ul-options">
+                        <li>
+                            <input type="radio" id="question-1-option-1" name="question-1-answer" />
+                            <label for="question-1-option-1">Marnie's</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="question-1-option-2" name="question-1-answer" />
+                            <label for="question-1-option-2">Mooney's</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="question-1-option-3" name="question-1-answer" />
+                            <label for="question-1-option-3">Macauley's</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+                
+            <div class="quiz-question">
+                <h3>Question 2</h3>
+                <p>
+                    What book does Joe steal from Peach's house in season 1?
+                </p>
+                <div class="quiz-options">
+                    <ul class="ul-options">
+                        <li>
+                            <input type="radio" id="question-2-option-1" name="question-2-answer" />
+                            <label for="question-2-option-1">The Ozma of Oz</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="question-2-option-2" name="question-2-answer" />
+                            <label for="question-2-option-2">The Magic of Oz</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="question-2-option-3" name="question-2-answer" />
+                            <label for="question-2-option-3">The Wonderful Wizard of Oz</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+                
+            <div class="quiz-question">
+                <h3>Question 3</h3>
+                <p>
+                    How many people did Joe actually kill in season 1?
+                </p>
+                <div class="quiz-options">
+                    <ul class="ul-options">
+                        <li>
+                            <input type="radio" id="question-3-option-1" name="question-3-answer" />
+                            <label for="question-3-option-1">3</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="question-3-option-2" name="question-3-answer" />
+                            <label for="question-3-option-2">5</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="question-3-option-3" name="question-3-answer" />
+                            <label for="question-3-option-3">4</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+                
+            <div class="quiz-question">
+                <h3>Question 4</h3>
+                <p>
+                    How do Joe and Love say they love each other?
+                </p>
+                <div class="quiz-options">
+                    <ul class="ul-options">
+                        <li>
+                            <input type="radio" id="question-4-option-1" name="question-4-answer" />
+                            <label for="question-4-option-1">I wolf you</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="question-4-option-2" name="question-4-answer" />
+                            <label for="question-4-option-2">I wanna kill you</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="question-4-option-3" name="question-4-answer" />
+                            <label for="question-4-option-3">I like you</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+                
+            <div class="quiz-question">
+                <h3>Question 5</h3>
+                <p>
+                    What's the name Forty's movie project?
+                </p>
+                <div class="quiz-options">
+                    <ul class="ul-options">
+                        <li>
+                            <input type="radio" id="question-5-option-1" name="question-5-answer" />
+                            <label for="question-5-option-1">Desperate People</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="question-5-option-2" name="question-5-answer" />
+                            <label for="question-5-option-2">The Lies We Tell</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="question-5-option-3" name="question-5-answer" />
+                            <label for="question-5-option-3">False Promises</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+                
+            <div class="quiz-question">
+                <h3>Question 6</h3>
+                <p>
+                    What alias does Candace use when she arrives in LA?
+                </p>
+                <div class="quiz-options">
+                    <ul class="ul-options">
+                        <li>
+                            <input type="radio" id="question-6-option-1" name="question-6-answer" />
+                            <label for="question-6-option-1">Amy Adam</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="question-6-option-2" name="question-6-answer" />
+                            <label for="question-6-option-2">Amy Aaron</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="question-6-option-3" name="question-6-answer" />
+                            <label for="question-6-option-3">Amy Austin</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+                
+            <div class="quiz-question">
+                <h3>Question 7</h3>
+                <p>
+                    Which comedian makes a speech at Henderson's funeral?
+                </p>
+                <div class="quiz-options">
+                    <ul class="ul-options">
+                        <li>
+                            <input type="radio" id="question-7-option-1" name="question-7-answer" />
+                            <label for="question-7-option-1">Sarah Silverman</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="question-7-option-2" name="question-7-answer" />
+                            <label for="question-7-option-2">Kathy Griffin</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="question-7-option-3" name="question-7-answer" />
+                            <label for="question-7-option-3">Chelsea Handler</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+                
+            <div class="quiz-question">
+                <h3>Question 8</h3>
+                <p>
+                    What is the name of Lucy and Sunrise's daughter?
+                </p>
+                <div class="quiz-options">
+                    <ul class="ul-options">
+                        <li>
+                            <input type="radio" id="question-8-option-1" name="question-8-answer" />
+                            <label for="question-8-option-1">Wick</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="question-8-option-2" name="question-8-answer" />
+                            <label for="question-8-option-2">Ember</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="question-8-option-3" name="question-8-answer" />
+                            <label for="question-8-option-3">Candle</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+                
+            <div class="quiz-question">
+                <h3>Question 9</h3>
+                <p>
+                    Where was the 2nd Season filmed?
+                </p>
+                <div class="quiz-options">
+                    <ul class="ul-options">
+                        <li>
+                            <input type="radio" id="question-9-option-1" name="question-9-answer" />
+                            <label for="question-9-option-1">New York</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="question-9-option-2" name="question-9-answer" />
+                            <label for="question-9-option-2">California</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="question-9-option-3" name="question-9-answer" />
+                            <label for="question-9-option-3">Florida</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+                
+            <div class="quiz-question">
+                <h3>Question 10</h3>
+                <p>
+                    What's the name of the grocery store in Season 2?
+                </p>
+                <div class="quiz-options">
+                    <ul class="ul-options">
+                        <li>
+                            <input type="radio" id="question-10-option-1" name="question-10-answer" />
+                            <label for="question-10-option-1">Anavrin</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="question-10-option-2" name="question-10-answer" />
+                            <label for="question-10-option-2">The Corner Cafe</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="question-10-option-3" name="question-10-answer" />
+                            <label for="question-10-option-3">Aleron</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <button class="solid-primary-btn quiz-submit-btn">Submit</button>
+
+        <p class="score-container">Your Score :<span class="score-value"> 0 / 10 </span></p>
+
+    </div>
+    <script src="../quizzes-rules.js"></script>
+    <script src="./you-quiz.js"></script>
+</body>
+</html>
