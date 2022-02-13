@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://enztron-dev-branch.netlify.app/components.css">
+    <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+    
+    <link rel="icon" type="image/x-icon" href="../../Images/favicon-icon.png">
+    <title>Quiztron | Money Heist</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../../topnavbar.css">
+    <link rel="stylesheet" href="../quizzes-page.css">
+    <link rel="stylesheet" href="./money-heist-quiz.css">
+</head>
+<body>
+    <div class="top-bar">
+        <div class="left-topbar-container">
+            <div onclick="location.href='/'" class="logo2-container-horizontal">
+                <div id="logo2">
+                    <div id="logo2-hexagon-1">
+                        <div class="logo2-upper-part"></div>
+                        <div class="logo2-middle-part"></div>
+                        <div class="logo2-lower-part"></div>
+                    </div>
+                    <div id="logo2-hexagon-2">
+                        <div class="logo2-upper-part"></div>
+                        <div class="logo2-middle-part"></div>
+                        <div class="logo2-lower-part"></div>
+                    </div>
+                    <div id="logo2-midbar"></div>
+                    <div id="logo2-mid-square"></div>
+                    <div id="left-logo2-midbar"></div>
+                    <div id="right-logo2-midbar"></div>
+                </div>
+                <div id="logo2-text">
+                    Quiztron
+                    <span>v1.0</span>
+                </div>
+            </div>
+        </div>
+        <div class="right-topbar-container">
+            <button class="solid-secondary-btn">Login</button>
+        </div>
+    </div>
+
+       
+    <div class="component-modal">
+        <div class="modal-container">
+            <div class="modal">
+                <h2>Rules</h2>
+                <ol class="list-of-rules">
+                    <li><p>It is a multiple choice question quiz.</p></li>
+                    <li><p>There will be 10 questions</p></li>
+                    <li><p>For each correct answer you get 1 point 🥳</p></li>
+                    <li><p>For each unattempted answer you get 0 point 😔</p></li>
+                    <li><p>There is no negative marking for wrong answers 🙃</p></li>
+                </ol>
+                <div class="checkbox-item">
+                    <input id="accept-rules-checkbox" type="checkbox">
+                    <label for="accept-rules-checkbox">
+                        I have read all rules
+                    </label>
+                </div>
+                <div class="modal-buttons">
+                    <button class="modal-action-btn solid-primary-btn" disabled="true">Start quiz</button>
+                </div>
+            </div>
+        </div> 
+    </div>
+
+    <div class="quiz-container">
+        <h2 class="quiz-heading">Money Heist Quiz</h2>
+
+        <img class="quiz-top-img" src="../../Images/Show-Images/Money-Heist2.png" alt="Money-Heist-Professor">
+        
+        <div class="quiz-questions-container">
+
+            <div class="quiz-question">
+                <h3>Question 1</h3>
+                <p>
+                    What is the alias name of Mastermind behind the heist?
+                </p>
+                <div class="quiz-options">
+                    <ul class="ul-options">
+                        <li>
+                            <input type="radio" id="question-1-option-1" name="question-1-answer" />
+                            <label for="question-1-option-1">Banker</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="question-1-option-2" name="question-1-answer" />
+                            <label for="question-1-option-2">Professor</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="question-1-option-3" name="question-1-answer" />
+                            <label for="question-1-option-3">Hunter</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+                
+            <div class="quiz-question">
+                <h3>Question 2</h3>
+                <p>
+                    Initial crew members of heist have their aliases based on?
+                </p>
+                <div class="quiz-options">
+                    <ul class="ul-options">
+                        <li>
+                            <input type="radio" id="question-2-option-1" name="question-2-answer" />
+                            <label for="question-2-option-1">Planets</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="question-2-option-2" name="question-2-answer" />
+                            <label for="question-2-option-2">Zodiac</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="question-2-option-3" name="question-2-answer" />
+                            <label for="question-2-option-3">Cities</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+                
+            <div class="quiz-question">
+                <h3>Question 3</h3>
+                <p>
+                    How much currency does the gang print at the Royal Mint?
+                </p>
+                <div class="quiz-options">
+                    <ul class="ul-options">
+                        <li>
+                            <input type="radio" id="question-3-option-1" name="question-3-answer" />
+                            <label for="question-3-option-1">879 million euros</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="question-3-option-2" name="question-3-answer" />
+                            <label for="question-3-option-2">984 million euros</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="question-3-option-3" name="question-3-answer" />
+                            <label for="question-3-option-3">926 million euros</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+                
+            <div class="quiz-question">
+                <h3>Question 4</h3>
+                <p>
+                    The show is actually called La Casa de Papel, which literally translates to what?
+                </p>
+                <div class="quiz-options">
+                    <ul class="ul-options">
+                        <li>
+                            <input type="radio" id="question-4-option-1" name="question-4-answer" />
+                            <label for="question-4-option-1">The House of Paper</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="question-4-option-2" name="question-4-answer" />
+                            <label for="question-4-option-2">The House of Outcasts</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="question-4-option-3" name="question-4-answer" />
+                            <label for="question-4-option-3">The House of Thieves</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+                
+            <div class="quiz-question">
+                <h3>Question 5</h3>
+                <p>
+                    Whose glasses contained a bug?
+                </p>
+                <div class="quiz-options">
+                    <ul class="ul-options">
+                        <li>
+                            <input type="radio" id="question-5-option-1" name="question-5-answer" />
+                            <label for="question-5-option-1">Professor</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="question-5-option-2" name="question-5-answer" />
+                            <label for="question-5-option-2">Alicia</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="question-5-option-3" name="question-5-answer" />
+                            <label for="question-5-option-3">Angel</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+                
+            <div class="quiz-question">
+                <h3>Question 6</h3>
+                <p>
+                    How many heists had Berlin pulled off before the event of “Money Heist” ?
+                </p>
+                <div class="quiz-options">
+                    <ul class="ul-options">
+                        <li>
+                            <input type="radio" id="question-6-option-1" name="question-6-answer" />
+                            <label for="question-6-option-1">27</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="question-6-option-2" name="question-6-answer" />
+                            <label for="question-6-option-2">23</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="question-6-option-3" name="question-6-answer" />
+                            <label for="question-6-option-3">25</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+                
+            <div class="quiz-question">
+                <h3>Question 7</h3>
+                <p>
+                    The Professor’s first name is eventually revealed. What is it?
+                </p>
+                <div class="quiz-options">
+                    <ul class="ul-options">
+                        <li>
+                            <input type="radio" id="question-7-option-1" name="question-7-answer" />
+                            <label for="question-7-option-1">Andrés</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="question-7-option-2" name="question-7-answer" />
+                            <label for="question-7-option-2">Sergio</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="question-7-option-3" name="question-7-answer" />
+                            <label for="question-7-option-3">Aníbal</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+                
+            <div class="quiz-question">
+                <h3>Question 8</h3>
+                <p>
+                    What is the occupation of Rio before the heist?
+                </p>
+                <div class="quiz-options">
+                    <ul class="ul-options">
+                        <li>
+                            <input type="radio" id="question-8-option-1" name="question-8-answer" />
+                            <label for="question-8-option-1">Miner</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="question-8-option-2" name="question-8-answer" />
+                            <label for="question-8-option-2">Forger</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="question-8-option-3" name="question-8-answer" />
+                            <label for="question-8-option-3">Hacker</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+                
+            <div class="quiz-question">
+                <h3>Question 9</h3>
+                <p>
+                    What is the name of Berlin’s girlfriend who comes to visit at the monastery?
+                </p>
+                <div class="quiz-options">
+                    <ul class="ul-options">
+                        <li>
+                            <input type="radio" id="question-9-option-1" name="question-9-answer" />
+                            <label for="question-9-option-1">Mónica</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="question-9-option-2" name="question-9-answer" />
+                            <label for="question-9-option-2">Tatiana</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="question-9-option-3" name="question-9-answer" />
+                            <label for="question-9-option-3">Alicia</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+                
+            <div class="quiz-question">
+                <h3>Question 10</h3>
+                <p>
+                    At the end of Part 2, in which country does Raquel track down The Professor?
+                </p>
+                <div class="quiz-options">
+                    <ul class="ul-options">
+                        <li>
+                            <input type="radio" id="question-10-option-1" name="question-10-answer" />
+                            <label for="question-10-option-1">Philippines</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="question-10-option-2" name="question-10-answer" />
+                            <label for="question-10-option-2">Thailand</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="question-10-option-3" name="question-10-answer" />
+                            <label for="question-10-option-3">Bali</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <button class="solid-primary-btn quiz-submit-btn">Submit</button>
+
+        <p class="score-container">Your Score :<span class="score-value"> 0 / 10 </span></p>
+
+    </div>
+    <script src="../quizzes-rules.js"></script>
+    <script src="./money-heist-quiz.js"></script>
+</body>
+</html>
