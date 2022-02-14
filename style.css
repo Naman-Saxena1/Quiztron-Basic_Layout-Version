@@ -25,6 +25,11 @@ body
     color: var(--background-color);
 }
 
+h2
+{
+    text-align: center;
+}
+
 For all scrollbars
 body::-webkit-scrollbar 
 {
